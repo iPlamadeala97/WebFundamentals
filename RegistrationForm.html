@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="/process" method="post">
+        <div>
+            <h1>Registration Form</h1>
+        </div><br>
+        <div>
+            <label for="First Name">First Name: *</label>
+            <input type="text" name="First_Name">
+        </div><br>
+        <div>
+            <label for="Last_Name">Last Name: *</label>
+            <input type="text" name="Last_Name">
+        </div><br>
+        <div>
+            <label for="Email">Email: *</label>
+            <input type="text" name="Email">
+        </div><br>
+        <div>
+            <label for="Password">Password: *</label>
+            <input type="password" name="Password">
+        </div><br>
+        <div>
+            <label for="Confirm_Password">Confirm Password: *</label>
+            <input type="password" name="Confirm_Password">
+        </div><br>
+        <div>
+            <label for="dob">Birthday:</label>
+            <input type="date" name="dob">
+        </div><br>
+        <div>
+            <label for="radio">Gender Identity:</label><br>
+            <input type="radio" name="gender" value="male">
+                <label for="male">Male</label>
+            <input type="radio" name="gender" value="female">
+                <label for="female">Female</label>
+            <input type="radio" name"gender" value="no_answer">
+                <label for="gender">I prefer not to answer</label>
+        </div><br>
+        <div>
+            <label for="description">A short description about myself:</label><br>
+            <textarea name="description" cols="30" row="40"></textarea>
+        </div><br>
+        <div>
+            <label for="language">Favorite Language:</label>
+            <select name="language">
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="C#">Python</option>
+        </div><br>
+        <div>
+            <input type="submit" value="Create Account">
+        </div><br>
+    </form>
+    <p>* Indicates a required field</p>
+</body>
+</html>
