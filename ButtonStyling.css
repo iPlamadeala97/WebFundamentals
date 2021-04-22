@@ -1,0 +1,31 @@
+#Search {
+    display:block;
+    border: medium solid aquamarine;
+    border-radius: 10px;
+    font-weight: bold;
+}
+::placeholder {
+    display: block;
+    color: aquamarine;
+    text-align: center;
+}
+
+#Button {
+    display: block;
+    background-color: aquamarine;
+    border: medium solid aquamarine;
+    border-radius: 50%;
+    color: white;
+}
+
+#CreateAccount {
+    display: block;
+    background-color: blue;
+    border: medium solid black;
+    color: white;
+    box-shadow: black 2px 2px;
+}
+
+* {
+    margin: 10px 0px 10px 10px;
+}
