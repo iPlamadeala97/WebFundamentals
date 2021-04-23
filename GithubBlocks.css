@@ -1,0 +1,49 @@
+.container {
+    background-color: lightgray;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    width: 950px;
+    height: 900px;
+}
+
+#title {
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Section1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightskyblue;
+    margin: 0px 20px 10px 20px;
+}
+
+.Section2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightpink;
+    margin: 10px 20px 10px 20px;
+}
+
+.Section3 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin: 10px 20px 20px 20px;
+}
+
+img {
+    height: 200px;
+    margin: 20px 20px 20px 20px; 
+    justify-content: space-evenly;
+}
+
+#imagesLink {
+    size: 10px;
+    color: black;
+    text-align: center;
+    vertical-align: botton;
+}
