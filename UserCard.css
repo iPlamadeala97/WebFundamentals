@@ -1,0 +1,55 @@
+.blueBlock {
+    background-color: teal;
+    margin: 20px 20px 0px 20px;
+    height: 105px;
+    width: 906px;
+}
+
+.userIcon {
+    height: 110px;
+    width: 110px;
+    border: medium solid lightgrey;
+    border-radius: 115px;
+    position: relative;
+    top: 45px;
+    left: 20px;
+}
+
+.whiteBlock {
+    background-color: white;
+    margin: 0px 20px 20px 20px;
+    width: 900px;
+    border: medium solid lightgrey;
+    border-top-color: white;
+}
+
+.name {
+    padding: 35px 0px 0px 30px;
+    margin-bottom: -3px;
+}
+
+.mapIcon, .Seattle {
+    margin-bottom: -3px;
+}
+
+.mapIcon, .gearIcon {
+    height: 25px;
+    padding-left: 30px;
+}
+
+.Seattle, .editLink {
+    display: inline-block;
+    padding: 0px 0px 0px 5px;
+}
+
+.firstLine, .secondLine {
+    padding-left: 30px;
+}
+
+.gearIcon {
+    padding-bottom: 5px;
+}
+
+.editLink {
+    padding-bottom: 10px;
+}
