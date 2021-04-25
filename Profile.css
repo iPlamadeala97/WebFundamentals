@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Container {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 800px;
+}
+
+.Section1 {
+    height: 65px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#Profile {
+    color: white;
+    margin-left: -125px;
+}
+
+#Nav {
+    color: white;
+    margin-left: -200px;
+    margin-right: 200px;
+}
+
+#SignOut {
+    background-color: teal;
+    color: white;
+    margin-right: -115px;
+    padding: 5px;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+
+.Section2 {
+    background-color: white;
+    width: auto;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ColumnL {
+    background-color: white;
+    height: 600px;
+    width: 683px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+
+.PersonalInfo {
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: medium solid gray;
+    margin: 10px 10px 10px 0px;
+}
+
+#BlueBlock {
+    background-color: aqua;
+    height: 50px;
+    width: 500px;
+}
+
+#JaneImage {
+    height: 70px;
+    width: 70px;
+    border: thin solid white;
+    border-radius: 50px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+#MapIcon, #GearIcon {
+    height: 20px;
+    width: 20px;
+    margin-bottom: -15px;
+}
+
+#WhiteBlock {
+    background-color: white;
+    height: 300px;
+    width: 500px;
+}
+
+#Seattle, #Edit {
+    display: inline-block;
+}
+
+#StringJaneDoe, #MapIcon, #Seattle, #FirstLine, #SecondLine, #GearIcon, #Edit {
+    padding: 0px 0px 10px 25px;
+}
+
+#StringJaneDoe {
+    padding-top: 45px;
+}
+
+.EducationInfo {
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border: medium solid gray;
+    margin: 10px 10px 10px 0px;
+}
+
+.GreyNavBlock {
+    height: 30px;
+    width: auto;
+    background-color: darkgray;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.WhiteInfoBlock {
+    padding: 15px 0px 10px 25px;
+}
+
+#Dojo, #Dates, #Description {
+    padding-bottom: 10px;
+}
+
+.ColumnR {
+    background-color: white;
+    height: 600px;
+    width: 683px;
+    margin-top: 15px;
+}
+
+#ToddImage, #PhilImage, #AdrienImage, #AnneImage, #AlayneImage, #ArryImage {
+    height: 45px;
+    width: 45px;
+    border: thin solid white;
+    border-radius: 50px;
+}
+
+.ConnectionRequests {
+    background-color:white;
+    height: 150px;
+    width: 500px;
+    border: medium solid gray;
+    margin: 10px 0px 10px 10px;
+}
+
+#Requests, #Connections {
+    text-align: center;
+    border: thin solid lightgrey;
+    border-radius: 50px;
+    padding: 3px;
+}
+
+.GreyCR {
+    height: 30px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.WhiteCR {
+
+}
+
+.Todd, .Phil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Todd >h5 {
+    padding-left: 5px;
+}
+
+.Phil >h5 {
+    padding-left: 5px;
+}
+
+.ToddIcons {
+    padding-left: 350px;
+}
+
+.PhilIcons {
+    padding-left: 354px;
+}
+
+.Todd {
+    padding: 10px 0px 5px 5px;
+}
+
+.Phil {
+    padding: 0px 0px 10px 5px;
+}
+
+#Accept1, #Accept2, #Close1, #Close2 {
+    height: 20px;
+    width: 20px;
+}
+
+.YourConnections {
+    background-color: white;
+    height: 250px;
+    width: 500px;
+    border: medium solid gray;
+    margin: 10px 0px 10px 10px;
+}
+
+.GreyYC {
+    height: 30px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.WhiteYC > {
+
+}
+
+.Adrien, .Anne, .Alayne, .Arry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Adrien >h5 {
+    padding-left: 5px;
+}
+
+.Anne >h5 {
+    padding-left: 5px;
+}
+
+.Alayne >h5 {
+    padding-left: 5px;
+}
+
+.Arry >h5 {
+    padding-left: 5px;
+}
+
+.Adrien {
+    padding: 10px 0px 5px 5px;
+}
+
+.Anne {
+    padding: 0px 0px 5px 5px;
+}
+
+.Alayne {
+    padding: 0px 0px 5px 5px;
+}
+
+.Arry {
+    padding: 0px 0px 5px 5px;
+}
+
+.ViewMoreYC {
+    height: 25px;
+    width: 490px;
+    border: medium solid gray;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+}
